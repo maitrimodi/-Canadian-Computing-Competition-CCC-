@@ -1,0 +1,24 @@
+J1 : 2020
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>J1</title>
+        <meta charset="utf-8"/>
+        <script type="text/javascript" src="j1.js"></script>
+    </head>
+    <body>
+        <h1>Dog Treats</h1>
+        <form action="#">
+            <!-- Formula used: 1 x S + 2 x M + 3 x L
+            If Barley's happiness score is 10 or greater then he is happy, otherwise he is sad. -->
+            <label for="s_treat">Small Treat:</label>
+            <input type="number" min="0" max="9" id="s_treat" name="s_treat">
+            <label for="m_treat">Medium Treat:</label>
+            <input type="number" min="0" max="9" id="m_treat" name="m_treat">
+            <label for="l_treat">Large Treat:</label>
+            <input type="number" min="0" max="9" id="l_treat" name="l_treat">
+            <input type="submit" value="Submit">
+        </form>
+        <div id="result"></div>
+    </body>
+</html>
